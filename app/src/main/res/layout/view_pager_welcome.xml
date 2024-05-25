@@ -13,7 +13,9 @@
         android:layout_width="524dp"
         android:layout_height="580dp"
         android:layout_gravity="center"
-        android:layout_marginTop="150dp" />
+        android:layout_marginTop="150dp"
+        android:src="@drawable/logo_transparent_safe_chat"
+        />
 
     <!--on below line we are adding view pager -->
 
@@ -35,8 +37,10 @@
         android:layout_height="58dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
+        android:backgroundTint="@color/md_theme_secondaryContainer"
         android:clickable="true"
         android:text="Start"
-            />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/md_theme_secondary_highContrast" />
 
 </LinearLayout>
